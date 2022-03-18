@@ -16,13 +16,20 @@ body {
 .resume-header {
     background-color: #e0f0ff;
 }
-
+.resume-header {
+	width: 100%;
+  height: 300px; 
+	background: url("../images/header1.jpg");
+		background-size: cover
+}
+.fw-bolder { color: aliceblue; font-family: 'Pacifico'; font-size: 60px}
+.fst-italic {color: aliceblue; padding: 20px}
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FFECEC;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #FFD9D9;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +43,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #FF7575;
 }
 
 .biography-details li, .skill-list li {
